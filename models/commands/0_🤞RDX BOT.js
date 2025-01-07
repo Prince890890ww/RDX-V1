@@ -243,3 +243,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
     return api.sendMessage(msg, threadID, messageID);
   };
+
+}
+
+module.exports.run = function({ api, event, client, __GLOBAL }) { }
